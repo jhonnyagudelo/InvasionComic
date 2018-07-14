@@ -1,0 +1,134 @@
+/* colores */
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif; }
+
+.menu {
+  position: fixed;
+  width: 100%;
+  z-index: 1; }
+  .menu__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #333333;
+    margin: 0;
+    font-size: 16px;
+    height: 3.6rem; }
+  .menu__item {
+    list-style-type: none; }
+  .menu__link {
+    color: #FFFFFF;
+    text-decoration: none; }
+    .menu__link:hover {
+      border-bottom: 3px solid #8FB299;
+      color: #8FB299; }
+
+.title-conteo {
+  display: inline-block;
+  font-family: 'Knewave', cursive;
+  left: 2rem;
+  line-height: 30px;
+  padding: 50px;
+  position: relative; }
+
+.title__jump {
+  display: block; }
+
+/*
+.u-wrapper{
+  max-width: 1000px;
+  margin:auto;
+  position: relative;
+  width: auto;
+} */
+.template {
+  background-image: url(../images/fondo-landingpage.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.texto-invasion,
+.texto-club {
+  width: 600px;
+  font-size: 20px;
+  -webkit-transform: translate(300px, 190px);
+  -ms-transform: translate(300px, 190px);
+  transform: translate(300px, 190px); }
+
+.invasion,
+.club,
+.actividades,
+.arrive,
+.contact {
+  height: 80vh;
+  overflow: hidden; }
+
+.logoInvacion {
+  -webkit-transform: translate(930px, -200px) rotate(40deg);
+  -ms-transform: translate(930px, -200px) rotate(40deg);
+  transform: translate(930px, -200px) rotate(40deg); }
+
+.capitan-america {
+  -webkit-transform: translate(80px, 150px);
+  -ms-transform: translate(80px, 150px);
+  transform: translate(80px, 150px); }
+
+.texto-club {
+  -webkit-transform: translate(550px, -70px);
+  -ms-transform: translate(550px, -70px);
+  transform: translate(550px, -70px); }
+
+.quienes-somos {
+  width: 23rem;
+  -webkit-transform: translate(150px, 80px) rotate(-30deg);
+  -ms-transform: translate(150px, 80px) rotate(-30deg);
+  transform: translate(150px, 80px) rotate(-30deg); }
+
+.batman-image {
+  -webkit-transform: translate(800px, -120px);
+  -ms-transform: translate(800px, -120px);
+  transform: translate(800px, -120px); }
+
+.conteo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  text-align: center;
+  padding: 32px 0px 32px 0; }
+
+.countdown {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center; }
+
+.countdown div {
+  padding: 20px;
+  border-radius: 10px;
+  background: #C80316;
+  opacity: 0.7;
+  margin: 5px; }
+
+.countdown div:first-child {
+  background: #A5A09E; }
+
+.countdown span {
+  display: block;
+  font-size: 25px; }
