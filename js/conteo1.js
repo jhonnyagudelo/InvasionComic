@@ -33,7 +33,7 @@ const countdown = (fechaLimite,elem,finalMensaje) => {
  		// el.style.color = red;
  		el.innerHTML = finalMensaje;
  		el.style.color = '#C80316';
- 		// el.style.
+ 		el.style.border = '1px solid #c80316';
  	}
 
  },1000 ) //intervalo en milisegundos

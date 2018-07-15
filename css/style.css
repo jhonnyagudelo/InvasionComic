@@ -3,6 +3,12 @@ body {
   margin: 0;
   font-family: 'Nanum Gothic', sans-serif; }
 
+.header {
+  background-image: url(../images/header.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px; }
+
 .menu {
   position: fixed;
   width: 100%;
@@ -34,6 +40,7 @@ body {
   display: inline-block;
   font-family: 'Knewave', cursive;
   left: 2rem;
+  top: calc(80vh-1rem);
   line-height: 30px;
   padding: 50px;
   position: relative; }
@@ -104,7 +111,9 @@ body {
   -ms-flex-line-pack: center;
   align-content: center;
   text-align: center;
-  padding: 32px 0px 32px 0; }
+  padding: 32px 0px 32px 0;
+  position: relative;
+  top: 535px; }
 
 .countdown {
   font-size: 50px;
